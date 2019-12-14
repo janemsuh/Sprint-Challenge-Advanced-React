@@ -48,3 +48,21 @@
     border: none;
   }
 }
+
+.player-container {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  text-align: left;
+  box-shadow: 1px 1px 3px;
+}
+
+.player-container .player-name {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.player-container .player-info {
+  padding-left: 2%;
+}
