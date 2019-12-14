@@ -22,7 +22,7 @@ class PlayerCard extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='player-card'>
                 {this.state.players.map((player, index) => (
                     <PlayerData player={player} key={index} />
                 ))}
